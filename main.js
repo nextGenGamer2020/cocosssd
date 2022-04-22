@@ -24,23 +24,7 @@ function draw(){
             stroke("#FF0000")
             rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
         }
-        fill("#ff00e6")
-        text("Dog", 40,50)
-        noFill()
-        stroke("black")
-        rect(30,40,150,300)
     
-        fill("#0059ff")
-        text("Cat", 200,50)
-        noFill()
-        stroke("black")
-        rect(180,40,150,300)
-    
-        fill("#000000")
-        text("Bowl", 185,260)
-        noFill()
-        stroke("black")
-        rect(150,245,70,100)
     }
 
 }
